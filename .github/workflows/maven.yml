@@ -10,12 +10,12 @@ name: Java CI with Maven
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "master" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "master" ]
 
 env:
-  DOCKER_IMAGE: springbootnextjs
+  DOCKER_IMAGE: springboot-kube
   DOCKER_TAG: 0.1
 
 jobs:
